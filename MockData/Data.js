@@ -239,7 +239,18 @@ let items = [{
 ]
 }]
 
-module.exports = items; // Export the items array.
+const workAreas = [
+  { id: 1, name: "Central District" },
+  { id: 2, name: "Northern District" },
+  { id: 3, name: "Southern District" },
+  { id: 4, name: "Jerusalem District" },
+  { id: 5, name: "Haifa District" },
+  { id: 6, name: "Tel Aviv District" },
+  { id: 7, name: "Sharon Region" },
+  { id: 8, name: "Negev Region" }
+];
+
+module.exports = { items, workAreas }; // Export the items array.
 
 
 
