@@ -20,6 +20,7 @@ a Node server which contain Get method and MockData for Drivers and workareas
 <p>
 <p> cd server <br>  </p> 
 
-### TO Run write node server.js
+### TO Run the code write the command: <br>
+node server.js
 <br>
 </p>
