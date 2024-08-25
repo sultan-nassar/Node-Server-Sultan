@@ -239,7 +239,7 @@ let items = [{
 ]
 }]
 
-module.exports = items; // Export the items array
+module.exports = items; // Export the items array.
 
 
 

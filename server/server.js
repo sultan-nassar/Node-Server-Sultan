@@ -5,7 +5,7 @@ const cors = require('cors');
 // Middleware
 const app = express();
 app.use(cors());
-app.use(express.json()); // Middleware to parse JSON bodies
+app.use(express.json()); // Middleware to parse JSON bodies.
 
 
 // @route   GET /api/items
