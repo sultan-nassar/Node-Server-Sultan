@@ -1,5 +1,5 @@
 
-let items = [{
+let drivers = [{
 "id": 1,
 "firstName": "John",
 "lastName": "Doe",
@@ -250,7 +250,7 @@ const workAreas = [
   { id: 8, name: "Negev Region" }
 ];
 
-module.exports = { items, workAreas }; // Export the items array.
+module.exports = { drivers, workAreas }; // Export the items array.
 
 
 

@@ -12,7 +12,7 @@ app.use(express.json()); // Middleware to parse JSON bodies.
 // @route   GET /api/items
 // @desc    Get all items
 // @access  Public
-app.get('/api/items', (req, res) => {
+app.get('/api/drivers', (req, res) => {
   res.json(items);
 });
 
