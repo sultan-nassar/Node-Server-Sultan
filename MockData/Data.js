@@ -250,7 +250,7 @@ const workAreas = [
   { id: 8, name: "Negev Region" }
 ];
 
-module.exports = { drivers, workAreas }; // Export the items array.
+module.exports = { drivers, workAreas }; // Export the drivers and workareas array.
 
 
 

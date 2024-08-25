@@ -1,3 +1,3 @@
 //her in this file we can check the rest api request in the server without postman.
-GET   http://localhost:3000/api/items
+GET   http://localhost:3000/api/drivers
 
