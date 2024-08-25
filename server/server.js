@@ -1,5 +1,5 @@
 const express = require('express'); //this becuase the entire app use express
-const { items, workAreas } = require('../MockData/Data');
+const { drivers, workAreas } = require('../MockData/Data');
  // Import the items data
 const cors = require('cors');
 
@@ -13,7 +13,7 @@ app.use(express.json()); // Middleware to parse JSON bodies.
 // @desc    Get all items
 // @access  Public
 app.get('/api/drivers', (req, res) => {
-  res.json(items);
+  res.json(drivers);
 });
 
 // @route   GET /api/workareas
